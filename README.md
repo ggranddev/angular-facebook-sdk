@@ -47,7 +47,7 @@ npm i --save ng2-facebook-sdk
 
 ## Example Usage
 
-You can view our example project here: https://github.com/zyramedia/ng2-facebook-sdk-example
+You can view our example project here: https://github.com/ggranddev/angular-facebook-exam.git
 
 In your main app module, import `FacebookService` and add it to your providers:
 ```typescript
@@ -164,7 +164,7 @@ Example:
 // example of using the share dialog
 this.fb.ui({
   method: 'share',
-  href: 'https://github.com/zyramedia/ng2-facebook-sdk'
+  href: 'https://github.com/ggranddev/angular-facebook-exam.git'
 });
 // returns a promise that resolves with the UI response
 ```
